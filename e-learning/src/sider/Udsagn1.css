@@ -1,0 +1,163 @@
+/* Udsagn1.css */
+
+.udsagn1-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem 1.5rem;
+    background-color: #e8dfd7;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    position: relative; /* til positionering af booky-helper */
+    min-height: 100vh;
+  }
+  
+  .udsagn1-container h1 {
+    color: #006d77;
+    margin-bottom: 1.5rem;
+  }
+  
+  .udsagn1-container h2 {
+    color: #006d77;
+    margin-top: 2rem;
+  }
+  
+  .highlight-text {
+    background-color: #F39F96;
+    padding: 0.5rem 1rem;
+    border-left: 5px solid #006d77;
+    margin: 1rem 0;
+    font-style: italic;
+    color: black;
+  }
+  
+  .quote-box {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    background-color: #F39F96;
+    border-left: 5px solid #006d77;
+    font-style: italic;
+    color: black;
+  }
+  
+  .button-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-button {
+    background-color: #006d77;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover,
+  .nav-button:focus {
+    background-color: #004f52;
+    outline: none;
+  }
+  
+  /* Booky helper container - placeres i nederste højre hjørne */
+  .booky-helper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 280px;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+  
+  /* Taleboblen */
+  .booky-bubble {
+    background-color: #f7f4e9;
+    border: 2px solid #006d77;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem 1rem 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative;
+    color: black;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    flex-grow: 1;
+    user-select: none;
+  }
+  
+  /* Lukkeknap i taleboblen - øverste venstre hjørne */
+  .close-bubble {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    color: #006d77;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+    user-select: none;
+  }
+  
+  .close-bubble:hover,
+  .close-bubble:focus {
+    color: #004f52;
+    outline: none;
+  }
+  
+  /* Booky billedet */
+  .booky-img {
+    width: 70px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+  }
+  
+  .booky-img:hover,
+  .booky-img:focus {
+    transform: scale(1.15);
+    outline: none;
+  }
+  
+  /* Mobiljusteringer */
+  @media (max-width: 480px) {
+    .udsagn1-container {
+      padding: 1rem 1rem 4rem;
+    }
+  
+    .booky-helper {
+      max-width: 220px;
+      bottom: 15px;
+      right: 15px;
+    }
+  
+    .booky-img {
+        width: 60px;
+        height: 80px;
+      }
+  
+    .booky-bubble {
+      font-size: 0.85rem;
+      padding: 0.8rem 1.2rem 0.8rem 1.5rem;
+    }
+  
+    .nav-button {
+      padding: 0.8rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  

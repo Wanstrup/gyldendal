@@ -1,0 +1,84 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8dfd7;
+    padding: 1rem;
+  }
+  
+  
+  
+  .login-box {
+    background-color: #006d6f;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 700px; /* øget fra 600px til 700px */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+   
+  }
+  
+  
+  .login-box h2 {
+    margin-bottom: 10rem;
+  }
+  
+  .user-icon {
+    background-color: #d3d3d3;
+    height: 80px;
+    width: 60px;
+    margin: 2rem auto 5rem auto; /* øget top margin fra 1rem til 2rem, og bundmargin til 1.5rem */
+    border-radius: 10px 10px 0 0;
+    position: relative;
+  }
+  .user-icon::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    width: 40px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+  }
+  
+  .login-box input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #1dc9c3;
+    color: black;
+    
+    
+    
+  }
+  
+  .login-box button {
+    margin-top: 1rem;
+    background-color: #1dc9c3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  

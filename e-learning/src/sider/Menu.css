@@ -1,0 +1,37 @@
+.menus {
+    padding: 2rem;
+    background-color: #e8dfd7;
+    text-align: center;
+
+  }
+  
+  .booky-container {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .booky {
+    width: 200px;
+  }
+  
+  
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    margin-top: 100px;
+  }
+  
+  .forside-button {
+    background-color: #006d6f;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+  }
+  

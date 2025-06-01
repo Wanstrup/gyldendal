@@ -1,0 +1,39 @@
+.udsagn-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e8dfd7;
+    min-height: 100%;
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .udsagn-button {
+    background-color: #006d77;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 25px;
+  }
+  
+  .udsagn-button:hover {
+    background-color: #005057;
+  }
+  

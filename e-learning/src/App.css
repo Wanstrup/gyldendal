@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.burger {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #f0f9ff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  z-index: 10;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0.5rem 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f5f9;
+  font-size: 0.9rem;
+  color: #64748b;
+  
+}
+
+/* Gør at roden altid fylder hele skærmen */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Gør appen til en flex-container i kolonne-retning */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: #e8dfd7;
+}
+
+/* Main vokser og skubber footeren ned */
+.main {
+  flex: 1;
+}

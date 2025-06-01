@@ -1,0 +1,59 @@
+.header {
+    background-color: #e8dfd7;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 3px solid #006d6f;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo img {
+    height: 130px;
+  }
+  
+  .burger {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #006d6f;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1001; /* Højere end menuens z-index */
+  }
+  
+  
+  .menu {
+    position: fixed; /* changed from absolute */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #006d6f;
+    padding: 2rem;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .menu li {
+    margin: 1rem 0;
+  }
+  
+  .menu a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  
