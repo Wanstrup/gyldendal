@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import footerBillede from "../assets/logo.png";
+import footerBillede from "../assets/logo.webp";
 
 const Footer = () => {
   return (

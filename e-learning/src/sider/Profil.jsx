@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./profil.css";
-import avatarImage from "../assets/bookys.png"; // Husk korrekt sti til din avatar
+import avatarImage from "../assets/bookys.webp"; // Husk korrekt sti til din avatar
 
 const Profile = () => {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Udsagn1.css";
-import booky from "../assets/bookys.png";
+import booky from "../assets/bookys.webp";
 
 function Udsagn1() {
   const navigate = useNavigate();

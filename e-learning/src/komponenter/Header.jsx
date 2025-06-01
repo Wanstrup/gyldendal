@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 
 // ← Importér dit eget billede fra assets-mappen
-import mitBillede from "../assets/logo.png"; // sørg for at filen findes
+import mitBillede from "../assets/logo.webp"; // sørg for at filen findes
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

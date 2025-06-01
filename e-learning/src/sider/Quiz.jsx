@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import booky from "../assets/bookys.png"; // husk din sti
+import booky from "../assets/bookys.webp"; // husk din sti
 import "./quiz.css";
 
 const questions = [

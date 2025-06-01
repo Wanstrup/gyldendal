@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import booky from "../assets/booky.png"; // ← Importér billedet
+import booky from "../assets/booky.webp"; // ← Importér billedet
 import "./Menu.css";
 
 const Menu = () => {
